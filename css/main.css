@@ -1,11 +1,16 @@
 body{
 	background: white;
 	font-family: verdana;
+	margin: 0 auto;
 }
 #topimg{
-	width: 100%
+	font-size: 0;
 }
-h1{
+.imgtop{
+	width: 25%;
+	height: 331px;
+}	
+h1 {
 	font-size: 35px;
 	text-align: center;
 	color: white;
@@ -26,16 +31,20 @@ nav{
 }
 .menubotton {
 	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
 }
 a{
 	text-decoration: none;
 	color:white;
 }
 #resume{
-	float: left;
+	float: right;
+	width: 50%;
 }
 #recetasdestacadas{
 	float: left;
+	width: 50%;
 }
 .destacadas{
 	width: 200px;
